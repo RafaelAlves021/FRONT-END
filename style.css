@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    color: #f4f4f4;
+    font-size: 45px;
+    margin-top: 100px;
+}
+h2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    border-left: 4px solid black;
+    padding-left: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+}
+#logotipo {
+    max-width: 400px;
+    margin: 0;
+}
+
+header {
+    background-color: #202020;
+    color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 4px solid #a22;
+    text-align: center;
+}
+header p {
+    font-family: "jacquard 24";
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+nav {
+    background-color: #d9d9d9;
+    padding: 10px 20px;
+    font-family: "Jacquard 24";
+    font-size: xx-large;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2b3a55;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+nav a:houver {
+    background-color: #2b3a55;
+    color: #fff;
+
+}
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section h2 {
+    border-left: 5px solid #2b3a55;
+    padding-left: 10px;
+}
+video {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #a22;
+    color: #f4f4f4;
+    padding: 15px 20px;
+    text-align: center;
+}
