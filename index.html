@@ -1,66 +1,150 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 
+    <title>Dungeon Delvers - Edições</title>
 </head>
+
 <body>
+
     <header>
-        <img src="imagens/images.jpg" alt="Logo do jogo">
-        
-
-        <h1>Dungeon Delvers</h1>
-        <p>Enfrente a Dungeon. Salve o Reino.</p>
-        
-
-
+        <img src="imagens/imagens.jpg.png" alt="Logo do jogo Dungeon Delvers">
+       
     </header>
+
     <nav>
-        
         <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="planos.html">Edições</a></li>
             <li><a href="contato.html">Lista de espera</a></li>
-            
-            <h2>Sobre o jogo</h2>
-            <p>                Dungeon Delvers é um RPG de guerra e exploração em um mundo repleto de perigos. Os jogadores assumem o controle de guerreiros especializados, enfrentando batalhas, explorando territórios hostis e superando desafios estratégicos. Ao longo da jornada, é possível evoluir personagens, adquirir equipamentos e formar uma equipe poderosa para enfrentar inimigos cada vez mais difíceis.
-            </p>
-
-    
         </ul>
     </nav>
+
     <main>
-        <section id="Trailer">
-            <h3>Trailer</h3>
-            <video controls width="480">
-                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
-            </video>
 
+        <section>
+            <h2>Sobre o jogo</h2>
 
+            <p>
+                Dungeon Delvers é um RPG de guerra e exploração em um mundo
+                repleto de perigos. Os jogadores assumem o controle de
+                guerreiros especializados, enfrentando batalhas, explorando
+                territórios hostis e superando desafios estratégicos.
+                Ao longo da jornada, é possível evoluir personagens,
+                adquirir equipamentos e formar uma equipe poderosa para
+                enfrentar inimigos cada vez mais difíceis.
+            </p>
         </section>
-        
+
+        <section>
+            <h2>Edições</h2>
+
+            <table class="tabela-edicoes">
+
+                <caption>
+                    Compare as edições de Dungeon Delvers
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Recurso</th>
+                        <th scope="col">Padrão</th>
+                        <th scope="col">Deluxe</th>
+                        <th scope="col" class="destaque">Colecionador</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <th scope="row">Jogo base</th>
+                        <td class="disponivel">✅</td>
+                        <td class="disponivel">✅</td>
+                        <td class="disponivel">✅</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Conteúdo digital</th>
+                        <td class="indisponivel">—</td>
+                        <td class="disponivel">Trilha sonora</td>
+                        <td class="disponivel">Trilha sonora</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Acesso antecipado (48h)</th>
+                        <td class="indisponivel">—</td>
+                        <td class="indisponivel">—</td>
+                        <td class="disponivel">✅</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">
+                            Skin exclusiva "Guardião das Sombras"
+                        </th>
+                        <td class="indisponivel">—</td>
+                        <td class="indisponivel">—</td>
+                        <td class="disponivel">✅</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Preço</th>
+                        <td>R$ 79,90</td>
+                        <td>R$ 109,90</td>
+                        <td class="destaque">R$ 149,90</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            * Cada edição inclui tudo o que vem na edição anterior.
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </section>
+
+        <section id="trailer">
+            <h2>Trailer</h2>
+
+            <video controls width="480">
+                <source
+                    src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                    type="video/mp4"
+                >
+
+                Seu navegador não suporta a reprodução de vídeos.
+            </video>
+        </section>
 
         <section id="trilha">
-            <h3>Trilha sonora</h3>
+            <h2>Trilha sonora</h2>
+
             <audio controls>
-                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3
-                " type="audio/mp3">
+                <source
+                    src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+                    type="audio/mpeg"
+                >
+
+                Seu navegador não suporta a reprodução de áudio.
             </audio>
-            
-
-            
-
         </section>
-    </main>
-        <footer>
-            <p>
-                Delvers - Todos os direitos
-            </p>
 
-        </footer>
-    
+    </main>
+
+    <footer>
+        <p>
+            Dungeon Delvers - Todos os direitos reservados
+        </p>
+    </footer>
+
 </body>
+
 </html>
